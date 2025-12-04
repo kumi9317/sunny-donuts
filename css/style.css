@@ -1611,7 +1611,17 @@ textarea {
     /*--------------------
     orderform
     --------------------*/
-    .product-row label {
+    .orderform-container {
+        padding-block: 40px;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .form-row label,
+    .form-row input,
+    .form-row textarea {
         width: 100%;
         margin-bottom: 10px;
     }
