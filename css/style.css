@@ -1591,12 +1591,27 @@ textarea {
 
     .pick-text1,
     .pick-text2 {
-        padding: 20px 40px;
+        padding: 20px 35px;
     }
 
     /*-----price-----*/
     .price-container {
         flex-direction: column;
+    }
+
+    /*-----LINE UP-----*/
+    .lineup1,
+    .lineup4,
+    .lineup5 {
+        width: 240px;
+    }
+
+    .lineup2 {
+        width: 250px;
+    }
+
+    .lineup3 {
+        width: 225px;
     }
 
     /*-----order-----*/
